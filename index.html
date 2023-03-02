@@ -237,7 +237,7 @@ tamaño   15.45MB
 </div>
 </header>
   
- <script type="text/javascript">(function(d, t, e, m){
+<script type="text/javascript">(function(d, t, e, m){
     
     // Async Rating-Widget initialization.
     window.RW_Async_Init = function(){
@@ -247,7 +247,16 @@ tamaño   15.45MB
             uid: "5b4004c165e23233b1355674625abdce",
             source: "website",
             options: {
+                "advanced": {
+                    "font": {
+                        "size": "14px"
+                    },
+                    "text": {
+                        "rateAwful": "No gusta"
+                    }
+                },
                 "size": "medium",
+                "lng": "es",
                 "style": "oxygen",
                 "isDummy": false
             } 
@@ -266,6 +275,5 @@ tamaño   15.45MB
     rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
     s.parentNode.insertBefore(rw, s);
     }(document, new Date(), "script", "rating-widget.com/"));</script>
-  
 </body>
 </html>
